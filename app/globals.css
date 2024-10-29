@@ -55,6 +55,24 @@ body {
     height: 100%;  
   }
 }
+.baixa, .cima{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.baixa{
+  z-index: 2;
+  background: url("base.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cima{
+  background: url("cima.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .popup-inicial{
   position: relative;
   padding: 20px;
